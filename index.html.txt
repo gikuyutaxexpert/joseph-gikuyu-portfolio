@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joseph Kirungi Gikuyu | Stock Control & Tax Consultant</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      background: #fff;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      border-radius: 12px;
+    }
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+    .title {
+      font-size: 28px;
+      color: #007b5e;
+      margin-bottom: 5px;
+    }
+    .subtitle {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    .contact {
+      margin: 20px 0;
+      font-size: 16px;
+    }
+    .checklist {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+      list-style: none;
+      padding: 0;
+      margin: 20px 0;
+    }
+    .checklist li {
+      background: #e6f2ef;
+      padding: 15px;
+      border-left: 5px solid #007b5e;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+    .highlight {
+      font-weight: bold;
+      color: #007b5e;
+      margin-top: 30px;
+      font-size: 18px;
+      text-align: center;
+    }
+    .testimonials {
+      margin-top: 30px;
+      background: #f9f9f9;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    .testimonials h3 {
+      color: #007b5e;
+    }
+    .testimonials p {
+      margin-bottom: 15px;
+    }
+    .merits {
+      margin-top: 30px;
+      background: #eefaf7;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    .merits h3 {
+      color: #007b5e;
+    }
+    .comment-section {
+      margin-top: 30px;
+    }
+    .comment-section form {
+      display: flex;
+      flex-direction: column;
+    }
+    .comment-section input, .comment-section textarea {
+      margin-bottom: 10px;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    .comment-section button {
+      background-color: #007b5e;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 14px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <center>
+      <img src="your-image.jpg" alt="Joseph Kirungi Gikuyu" class="profile-img">
+      <div class="title">Joseph Kirungi Gikuyu</div>
+      <div class="subtitle">Freelance Stock Control & Tax Specialist</div>
+      <p>Nairobi-based | Helping Retailers Optimize Inventory & Reduce Losses</p>
+    </center>
+
+    <div class="contact">
+      <p><strong>📞 Call/WhatsApp:</strong> 0793 323 072 / 0708 942 780</p>
+      <p><strong>📧 Email:</strong> gikuyujoskish@gmail.com</p>
+      <p><strong>📍 Location:</strong> Nairobi</p>
+      <p><strong>🌐 Facebook:</strong> <a href="https://facebook.com/josephgikuyu" target="_blank">josephgikuyu</a></p>
+      <img src="your-qr-code.png" alt="QR Code" style="width:120px; margin-top:10px;">
+    </div>
+
+    <ul class="checklist">
+      <li>Stock Auditing & Tracking</li>
+      <li>Loss Prevention & Shrinkage Control</li>
+      <li>Inventory Optimization</li>
+      <li>Demand Forecasting</li>
+      <li>Stock System Setup & Training</li>
+      <li>Accounts & Tax Consultancy</li>
+      <li>CR29 Filing & KRA Queries Handling</li>
+      <li>Audit Book Preparation & Alignment</li>
+      <li>Business Records Reconciliation</li>
+    </ul>
+
+    <div class="highlight">
+      📢 "Better Accountacy, Higher Profits!"
+    </div>
+
+    <div class="merits">
+      <h3>Why Work with Me on a Freelance Basis?</h3>
+      <ul>
+        <li>Advanced expertise in accounting, tax, and inventory systems</li>
+        <li>Highly accessible and responsive for all engagements</li>
+        <li>Cost-effective and flexible compared to full-time hiring</li>
+        <li>Quick turnaround and quality-focused solutions</li>
+        <li>Rich client experience across manufacturing, retail, and consultancy</li>
+      </ul>
+    </div>
+
+    <div class="testimonials">
+      <h3>Client Testimonials</h3>
+      <p><strong>Monarch Converters Ltd:</strong> "Excellent at manufacturing journal formulation and stock controls."</p>
+      <p><strong>Romwazi Enterprises Ltd:</strong> "Tax consultant to rely on—very helpful."</p>
+      <p><strong>Polyblend Limited:</strong> "A leading specialist in accounting alignment—clearly assists in preparation of audit books of accounts and very detailed."</p>
+    </div>
+
+    <div class="comment-section">
+      <h3>Leave a Comment</h3>
+      <form action="mailto:gikuyujoskish@gmail.com" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="comment" rows="5" placeholder="Your Comment" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <div class="footer">
+      &copy; 2025 Joseph Kirungi Gikuyu. All rights reserved.
+    </div>
+  </div>
+</body>
+</html>
